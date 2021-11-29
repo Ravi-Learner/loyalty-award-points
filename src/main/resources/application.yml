@@ -1,0 +1,21 @@
+server:
+  port: 8282
+  servlet:
+    context-path: /loyalty
+  error:
+    include-message: always
+    include-binding-errors: always
+    whitelabel:
+      enabled: false
+spring:
+  datasource:
+    url: jdbc:h2:mem:awards;DB_CLOSE_DELAY=-1
+    username: sa
+    password: password
+    driverClassName: org.h2.Driver
+  jpa:
+    spring.jpa.database-platform: org.hibernate.dialect.H2Dialect
+    hibernate.ddl-auto: update
+    open-in-view: false
+  h2:
+    console.enabled: true
