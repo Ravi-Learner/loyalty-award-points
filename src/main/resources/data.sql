@@ -11,6 +11,8 @@ INSERT INTO customer_programs(customer_id, program_id) VALUES (1,1);
 INSERT INTO customer_programs(customer_id, program_id) VALUES (1,2);
 INSERT INTO customer_programs(customer_id, program_id) VALUES (2,1);
 INSERT INTO customer_programs(customer_id, program_id) VALUES (3,1);
+INSERT INTO customer_programs(customer_id, program_id) VALUES (4,1);
+
 
 INSERT INTO award_program_rules(program_id, multiplier, minimum_amt, maximum_pts, tier) VALUES (1,1,'50','50',1);
 INSERT INTO award_program_rules(program_id, multiplier, minimum_amt, maximum_pts, tier) VALUES (1,2,'100',-1,1);
@@ -22,3 +24,16 @@ INSERT INTO transactions(create_date,customer_id,subtotal,tax,total) VALUES ('20
 INSERT INTO transactions(create_date,customer_id,subtotal,tax,total) VALUES ('2021-11-05 11:12:24',2,'80.85','11.63','167.38');
 INSERT INTO transactions(create_date,customer_id,subtotal,tax,total) VALUES ('2021-09-01 09:12:24',2,'99.99','11.63','167.38');
 INSERT INTO transactions(create_date,customer_id,subtotal,tax,total) VALUES ('2021-10-05 11:12:24',1,'90.87','11.63','167.38');
+
+INSERT INTO transactions(create_date,customer_id,subtotal,tax,total) VALUES ('2021-09-01 09:12:24',3,'99.99','11.63','167.38');
+INSERT INTO transactions(create_date,customer_id,subtotal,tax,total) VALUES ('2021-10-20 11:12:24',3,'44.87','4.63','48.38');
+INSERT INTO transactions(create_date,customer_id,subtotal,tax,total) VALUES ('2021-11-05 11:12:24',3,'101.87','11.63','113.38');
+INSERT INTO transactions(create_date,customer_id,subtotal,tax,total) VALUES ('2021-09-11 11:12:24',3,'90.87','11.63','101.38');
+INSERT INTO transactions(create_date,customer_id,subtotal,tax,total) VALUES ('2021-10-02 11:12:24',3,'156.87','11.63','167.38');
+
+INSERT INTO transactions(create_date,customer_id,subtotal,tax,total) VALUES ('2021-09-01 09:12:24',4,'99.99','11.63','167.38');
+INSERT INTO transactions(create_date,customer_id,subtotal,tax,total) VALUES ('2021-11-12 11:12:24',4,'90.87','11.63','167.38');
+INSERT INTO transactions(create_date,customer_id,subtotal,tax,total) VALUES ('2021-09-11 09:12:24',4,'47.47','11.63','167.38');
+INSERT INTO transactions(create_date,customer_id,subtotal,tax,total) VALUES ('2021-11-05 11:12:24',4,'51.00','5.56','56.56');
+INSERT INTO transactions(create_date,customer_id,subtotal,tax,total) VALUES ('2021-10-01 09:12:24',4,'62.99','11.63','74.38');
+INSERT INTO transactions(create_date,customer_id,subtotal,tax,total) VALUES ('2021-10-05 11:12:24',4,'91.87','11.63','102.56');
